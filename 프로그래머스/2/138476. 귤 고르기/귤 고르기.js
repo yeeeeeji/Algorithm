@@ -1,11 +1,14 @@
 function solution(k, tangerine) {
-    var infos = new Array(10000001).fill(0);
-    tangerine.forEach((t) => {infos[t] += 1});
-    infos = infos.sort((a, b) => a-b);
+    var infos = new Map();
+    tangerine.forEach((t) => {
+        if (infos.get(t) == undefined) infos.set(t, 1);
+        else infos.set(t, infos.get(t)+1);
+    })
+    var counts = [...infos.values()].sort((a, b) => a-b);
     var count = 0;
     var answer = 0;
     while (count < k) {
-        count += infos.pop();
+        count += counts.pop();
         answer += 1;
     }
     return answer;
