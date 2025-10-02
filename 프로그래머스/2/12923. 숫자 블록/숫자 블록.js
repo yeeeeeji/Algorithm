@@ -9,7 +9,7 @@ function solution(begin, end) {
                     max = num/j;
                     break;
                 } else {
-                    if (j <= 10000000) max = Math.max(max, j);
+                    if (j <= 10000000) max = j;
                 }
             }
         }
