@@ -1,6 +1,6 @@
 # [level 3] 미로 탈출 명령어 - 150365 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/150365#qna) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/150365?language=javascript) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 10월 09일 21:40:52
+2026년 01월 02일 16:19:17
 
 ### 문제 설명
 
